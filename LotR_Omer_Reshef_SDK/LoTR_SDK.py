@@ -1,16 +1,9 @@
-from pprint import pprint
 import requests
 
 # SET YOUR OWN TOKEN. Instructions are here - https://the-one-api.dev/documentation
 token = ""
 my_headers = ""
 #----------------------------------------------------------------------------------
-
-#An example of how to use the code.
-def main():
-    set_token(open("token.txt", 'r').readline())
-    pprint(get_quotes(1)[0])
-    pprint(get_characters(race = "Elf"))
 
 #Get a character's info. Can use filters - name, race, gender.
 def get_characters(name="", race="", gender=""):
@@ -64,6 +57,3 @@ def set_token(t):
     token = t
     my_headers = {'Authorization': f'Bearer {token}'}
 
-
-if __name__ == "__main__":
-    main()
