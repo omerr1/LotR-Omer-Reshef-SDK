@@ -14,7 +14,7 @@ Requires python >=3.3 to run.
 To install the package use:
 
 ```sh
-pip install LotR_Omer_Reshef_SDK
+pip install LotR-Omer-Reshef-SDK==0.3
 ```
 
 ## Development
