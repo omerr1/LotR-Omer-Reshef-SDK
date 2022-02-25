@@ -17,6 +17,12 @@ To install the package use:
 pip install LotR-Omer-Reshef-SDK==0.3
 ```
 
+In an IDE use 
+
+```sh
+from LotR_Omer_Reshef_SDK import LoTR_SDK
+```
+
 ## Development
 
 The following functions are available:
